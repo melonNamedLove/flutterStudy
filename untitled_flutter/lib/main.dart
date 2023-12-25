@@ -46,10 +46,166 @@ class MyApp extends StatelessWidget {
                     ],
             
           ),
-          body:Container(
-            width: 50,height: 50,color: Colors.blue,
-            margin: EdgeInsets.all(20),
+          body:Column(
+
+
+            children: [
+              Container(
+                  width: double.infinity ,height: 150,
+                  margin: EdgeInsets.all(20),
+                  child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+
+                        Image.asset("melon.jpeg",height: 100,),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.end,
+                          children: [
+                            Text("사랑이란 멜론"),
+                            Text("제라스 1100판 장인"),
+                            Text("안팔음 ???원"),
+                            Row(
+                              children: [
+                                Icon(Icons.heart_broken),
+                                Text("+")
+                              ],
+                            ),
+                          ],
+                        )
+                      ]
+
+                  )
+              ),Container(
+                  width: double.infinity ,height: 150,
+                  margin: EdgeInsets.all(20),
+                  child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+
+                        Image.asset("melon.jpeg",height: 100,),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.end,
+                          children: [
+                            Text("사랑이란 멜론"),
+                            Text("제라스 1100판 장인"),
+                            Text("안팔음 ???원"),
+                            Row(
+                              children: [
+                                Icon(Icons.heart_broken),
+                                Text("+")
+                              ],
+                            ),
+                          ],
+                        )
+                      ]
+
+                  )
+              ),Container(
+                  width: double.infinity ,height: 150,
+                  margin: EdgeInsets.all(20),
+                  child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+
+                        Image.asset("melon.jpeg",height: 100,),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.end,
+                          children: [
+                            Text("사랑이란 멜론"),
+                            Text("제라스 1100판 장인"),
+                            Text("안팔음 ???원"),
+                            Row(
+                              children: [
+                                Icon(Icons.heart_broken),
+                                Text("+")
+                              ],
+                            ),
+                          ],
+                        )
+                      ]
+
+                  )
+              ),Container(
+                  width: double.infinity ,height: 150,
+                  margin: EdgeInsets.all(20),
+                  child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+
+                        Image.asset("melon.jpeg",height: 100,),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.end,
+                          children: [
+                            Text("사랑이란 멜론"),
+                            Text("제라스 1100판 장인"),
+                            Text("안팔음 ???원"),
+                            Row(
+                              children: [
+                                Icon(Icons.heart_broken),
+                                Text("+")
+                              ],
+                            ),
+                          ],
+                        )
+                      ]
+
+                  )
+              ),Container(
+                  width: double.infinity ,height: 150,
+                  margin: EdgeInsets.all(20),
+                  child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+
+                        Image.asset("melon.jpeg",height: 100,),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.end,
+                          children: [
+                            Text("사랑이란 멜론"),
+                            Text("제라스 1100판 장인"),
+                            Text("안팔음 ???원"),
+                            Row(
+                              children: [
+                                Icon(Icons.heart_broken),
+                                Text("+")
+                              ],
+                            ),
+                          ],
+                        )
+                      ]
+
+                  )
+              ),Container(
+                  width: double.infinity ,height: 150,
+                  margin: EdgeInsets.all(20),
+                  child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+
+                        Image.asset("melon.jpeg",height: 100,),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.end,
+                          children: [
+                            Text("사랑이란 멜론"),
+                            Text("제라스 1100판 장인"),
+                            Text("안팔음 ???원"),
+                            Row(
+                              children: [
+                                Icon(Icons.heart_broken),
+                                Text("+")
+                              ],
+                            ),
+                          ],
+                        )
+                      ]
+
+                  )
+              ),
+
+            ],
+
           ),
+
 
 
 
