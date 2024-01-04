@@ -1,44 +1,44 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const meow());
-}
+void main() => runApp(MyApp());
 
-class meow extends StatelessWidget {
-  const meow({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        appBar:AppBar(),
-        body: ListView(
-          children: [
-            Text('d'),
-            Text('d'),
-            Text('d'),
-            Text('d'),
-            Text('d'),
-            Text('d'),
-            Text('d'),
-            Text('d'),
-            Text('f'),
-            Text('q'),
-          ],
-        ),
+      title: 'First app',
+      theme:ThemeData(
+        primarySwatch: Colors.blue
       ),
+
+      home:MyHomePage(),
     );
   }
 }
 
 
-class item extends StatelessWidget {
-  const item({super.key});
+class MyHomePage extends StatelessWidget {
+  const MyHomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-        child:Text('안녕')
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('야호'),
+        backgroundColor:Colors.blue,
+      ),
+      body:Center(
+        child: Column(
+          children: <Widget>[
+            Text('야옹'),
+            Text('야옹'),
+            Text('야옹'),
+            Text('야옹'),
+          ],
+        ),
+      ),
     );
   }
 }
