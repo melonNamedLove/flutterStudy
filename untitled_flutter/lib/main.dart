@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'myPageMQ.dart';
+import 'myPageYTX.dart';
 
 void main(){
   runApp(MyApp3());
@@ -20,7 +20,7 @@ class MyApp3 extends StatelessWidget {
           )
         )
       ),
-      home:myPageMQ()
+      home:MyPageYTX()
     );
   }
 }
