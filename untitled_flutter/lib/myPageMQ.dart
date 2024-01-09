@@ -23,7 +23,9 @@ class _MyPageState extends State<myPageMQ> {
             ),Text('height'+
                 MediaQuery.of(context).size.height.toString()
             ),Text('aspect ratio'+
-                MediaQuery.of(context).size.aspectRatio.toString()
+                MediaQuery.of(context).size.aspectRatio.toStringAsFixed(2)
+            ),Text('Orientation'+
+                MediaQuery.of(context).orientation.toString()
             ),
           ],
         ),
